@@ -24,7 +24,7 @@ export default defineConfig({
       }),
     ],
     ssr: {
-      external: ["async_hooks"],
+      external: ["node:async_hooks"],
     },
     build: {
       rollupOptions: {
