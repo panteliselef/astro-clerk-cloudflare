@@ -1,0 +1,36 @@
+{
+  "name": "astro-clerk-cf-pages",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler types && astro dev",
+    "start": "wrangler types && astro dev",
+    "build": "wrangler types && astro build",
+    "preview": "wrangler types && astro preview",
+    "wrangler": "wrangler pages dev ./dist",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.4",
+    "@astrojs/cloudflare": "^10.1.0",
+    "@astrojs/node": "^8.2.5",
+    "@astrojs/react": "^3.3.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@clerk/localizations": "2.0.0-beta.14",
+    "@clerk/types": "4.0.0-beta.16",
+    "@nanostores/react": "0.7.1",
+    "astro": "^4.6.1",
+    "astro-clerk-auth": "0.3.2",
+    "nanostores": "^0.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.5",
+    "wrangler": "^3.50.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.12.3",
+    "rollup-plugin-visualizer": "^5.12.0"
+  }
+}

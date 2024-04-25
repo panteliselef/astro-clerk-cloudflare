@@ -1,0 +1,32 @@
+---
+import type { SignOutOptions } from "@clerk/types";
+interface Props extends SignOutOptions {
+  signOutUrl?: string;
+}
+---
+
+<button data-sign-out-button>Sign out!</button>
+
+<script is:inline define:vars={{ props: Astro.props }}>
+  SIGN_OUT_BUTTON_PROPS = props;
+</script>
+
+<script>
+  import { $clerk } from "astro-clerk-auth/stores";
+
+  const button = document.querySelector(
+    "[data-sign-out-button]",
+  ) as HTMLElement;
+
+  button?.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    // @ts-ignore
+    $clerk.get()?.signOut(SIGN_OUT_BUTTON_PROPS);
+
+    // @ts-ignore
+    if (SIGN_OUT_BUTTON_PROPS.signOutUrl)
+      // @ts-ignore
+      window.location.replace(SIGN_OUT_BUTTON_PROPS.signOutUrl);
+  });
+</script>
