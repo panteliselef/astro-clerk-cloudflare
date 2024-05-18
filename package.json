@@ -15,16 +15,9 @@
     "@astrojs/check": "^0.3.4",
     "@astrojs/cloudflare": "^10.2.4",
     "@astrojs/node": "^8.2.5",
-    "@astrojs/react": "^3.3.0",
     "@astrojs/tailwind": "^5.1.0",
-    "@clerk/localizations": "2.0.0-beta.14",
-    "@clerk/types": "4.0.0-beta.16",
-    "@nanostores/react": "0.7.1",
     "astro": "^4.6.1",
     "astro-clerk-auth": "file:.yalc/astro-clerk-auth",
-    "nanostores": "^0.9.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "typescript": "^5.4.5"
   },
   "devDependencies": {

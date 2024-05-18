@@ -1,6 +1,5 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
-import react from "@astrojs/react";
 import clerk from "astro-clerk-auth/hotload";
 import cloudflare from "@astrojs/cloudflare";
 import { visualizer } from "rollup-plugin-visualizer";
@@ -9,7 +8,6 @@ import { visualizer } from "rollup-plugin-visualizer";
 export default defineConfig({
   integrations: [
     tailwind(),
-    react(),
     clerk({
       afterSignInUrl: "/",
       afterSignUpUrl: "/",
