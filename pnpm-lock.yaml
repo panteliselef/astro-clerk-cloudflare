@@ -24,8 +24,8 @@ importers:
         specifier: ^4.6.1
         version: 4.6.1(@types/node@20.12.7)(typescript@5.4.5)
       astro-clerk-auth:
-        specifier: 0.0.0-snapshot-20240602194324
-        version: 0.0.0-snapshot-20240602194324(astro@4.6.1(@types/node@20.12.7)(typescript@5.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 0.7.0
+        version: 0.7.0(astro@4.6.1(@types/node@20.12.7)(typescript@5.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -1094,8 +1094,8 @@ packages:
   as-table@1.0.55:
     resolution: {integrity: sha512-xvsWESUJn0JN421Xb9MQw6AsMHRCUknCe0Wjlxvjud80mU4E6hQf1A6NzQKcYNmYw62MfzEtXc+badstZP3JpQ==}
 
-  astro-clerk-auth@0.0.0-snapshot-20240602194324:
-    resolution: {integrity: sha512-K1KUtrdJPpR0nIks+IWXnwSiHlbxu/wcOQxbPw2S7zyDAblxuDVzz2kyWpEoDDWJdNa7uIkgprYkK/V2I1yemA==}
+  astro-clerk-auth@0.7.0:
+    resolution: {integrity: sha512-T1K/Nc5Phk+UEe/QCFshWFAzuPLJ5VCpubUkqIPQG68Q05zqYuD4dq6qkutdSZyUU9ZFlCfu02+tYtNbX3rj5g==}
     engines: {node: '>=20'}
     peerDependencies:
       astro: ^3.2.0 || ^4.0.0
@@ -4105,7 +4105,7 @@ snapshots:
     dependencies:
       printable-characters: 1.0.42
 
-  astro-clerk-auth@0.0.0-snapshot-20240602194324(astro@4.6.1(@types/node@20.12.7)(typescript@5.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  astro-clerk-auth@0.7.0(astro@4.6.1(@types/node@20.12.7)(typescript@5.4.5))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@clerk/backend': 1.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@clerk/clerk-js': 5.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
