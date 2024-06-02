@@ -17,7 +17,7 @@
     "@astrojs/node": "^8.2.5",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.6.1",
-    "astro-clerk-auth": "file:.yalc/astro-clerk-auth",
+    "astro-clerk-auth": "^0.6.8",
     "typescript": "^5.4.5"
   },
   "devDependencies": {

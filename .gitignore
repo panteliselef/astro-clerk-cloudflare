@@ -3,7 +3,7 @@ dist/
 
 .wrangler/
 .vscode/
-
+.idea/
 # generated types
 .astro/
 
