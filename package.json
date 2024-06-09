@@ -17,7 +17,7 @@
     "@astrojs/node": "^8.2.5",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.6.1",
-    "astro-clerk-auth": "0.0.0-snapshot-20240609210517",
+    "astro-clerk-auth": "0.7.0",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
