@@ -4,3 +4,8 @@ pages_build_output_dir = "./dist"
 
 compatibility_date = "2024-04-25"
 compatibility_flags = ["nodejs_compat"]
+
+
+[vars]
+PUBLIC_ASTRO_APP_CLERK_SIGN_IN_URL="/sign-in"
+PUBLIC_ASTRO_APP_CLERK_SIGN_UP_URL="/sign-up"
