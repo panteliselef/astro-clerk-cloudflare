@@ -21,8 +21,8 @@ dependencies:
     specifier: ^4.6.1
     version: 4.10.1(typescript@5.4.5)
   astro-clerk-auth:
-    specifier: ^0.8.0
-    version: 0.8.0(astro@4.10.1)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 0.0.0-snapshot-20240617185444
+    version: 0.0.0-snapshot-20240617185444(astro@4.10.1)(react-dom@18.3.1)(react@18.3.1)
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -2278,8 +2278,8 @@ packages:
     dependencies:
       printable-characters: 1.0.42
 
-  /astro-clerk-auth@0.8.0(astro@4.10.1)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-jCKohorhZIVBaZpDpwaD7zet7cdW6dfskJAqfhHnIsYDznEoCmCuG/ARext9Ek32cpfKQBgZ4VyTDtWMxiPXfA==}
+  /astro-clerk-auth@0.0.0-snapshot-20240617185444(astro@4.10.1)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-rzM/lLHGMZeFncnOpkSQ568/v55/IjPaT8S5jfRWoAEGSCsZIRX0++TBL7VeL3Q4HKYnFqO25U3zAfa9qTZ9Lw==}
     engines: {node: '>=20'}
     peerDependencies:
       astro: ^3.2.0 || ^4.0.0
