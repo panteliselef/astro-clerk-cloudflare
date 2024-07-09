@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
-import clerk from "astro-clerk-auth/hotload";
+import clerk from "@clerk/astro";
 import cloudflare from "@astrojs/cloudflare";
 import { visualizer } from "rollup-plugin-visualizer";
 
@@ -31,8 +31,8 @@ export default defineConfig({
             if (id.includes("clerk-js")) {
               return "@clerk-js";
             }
-            if (id.includes("astro-clerk-auth")) {
-              return "@astro-clerk-auth";
+            if (id.includes("@clerk/astro")) {
+              return "@clerk/astro";
             }
             if (id.includes("localizations")) {
               return "@clerk-localizations";

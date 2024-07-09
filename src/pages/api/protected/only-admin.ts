@@ -1,13 +1,13 @@
 import type { APIRoute } from "astro";
-import { clerkClient } from "astro-clerk-auth/v0";
+import { clerkClient } from "@clerk/astro/server";
 
-export const GET: APIRoute = async ({ locals }) => {
-  const { auth } = locals;
+export const GET: APIRoute = async (context) => {
+  const { auth } = context.locals;
 
   if (auth().has({ role: "admin" })) {
     return new Response(
       JSON.stringify(
-        await clerkClient.organizations.getOrganization({
+        await clerkClient(context).organizations.getOrganization({
           organizationId: auth().orgId!,
         }),
       ),
